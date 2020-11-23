@@ -1,3 +1,73 @@
 body {
     background-color: black;
+    margin: 7%
+}
+
+.lob-intro {
+    margin-bottom: 5in;
+    margin-top: 20%;
+    margin-left: 40%;
+    text-align: right;
+    
+    .lob-intro-subhead {
+        margin-bottom: 40%;
+    }
+
+    .lob-intro-quote-attibute {
+        margin-bottom: 30%;
+    }
+}
+
+.lob-about {
+    margin-right: 15%;
+    margin-left: 15%;
+
+    .lob-about-header {
+        margin-bottom: 5%;
+    }
+}
+
+.lob-deck {
+
+    .lob-deck-header {
+        margin-top: 40%;
+        margin-bottom: 40%;
+    }
+
+    .lob-deck-header-para1,
+    .lob-deck-header-para2 {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .lob-deck-bow {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 40%;
+    }
+
+    .lob-deck-bow-text1,
+    .lob-deck-bow-text2 {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .lob-deck-cockpit {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 40%;
+    }
+
+    .lob-deck-cockpit-text1,
+    .lob-deck-cockpit-text2 {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .lob-off {
+        margin-top: 40%;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+
 }
