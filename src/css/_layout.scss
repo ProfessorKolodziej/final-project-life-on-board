@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 .lob-intro {
@@ -145,6 +146,84 @@ body {
 
     .bow-video-2 {
         position: relative;
-        top: -175px;
+        top: -100px;
+    }
+
+    .lob-deck-cockpit {
+        position: relative;
+        top: -70px; 
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .pit-video {
+        position: relative;
+        top: -125px;
+    }
+
+    .lob-deck-cockpit-text1 {
+        position: relative;
+        top: -100px; 
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .lob-deck-cockpit-text2 {
+        position: relative;
+        top: -100px; 
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .pit-video2 {
+        position: relative;
+        top: -75px;
+    }
+
+}
+
+.lob-off {
+
+    .lob-off-header {
+        position: relative;
+        top: -50px; 
+        font-size: 65px;
+        text-align: center;
+    }
+
+    .below-video {
+        position: relative;
+        top: -100px;
+    }
+
+    .lob-off-text1 {
+        position: relative;
+        top: -100px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .sleep-video {
+        position: relative;
+        top: -100px; 
+    }
+
+    .lob-off-text2 {
+        position: relative;
+        top: -100px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .lob-off-text3 {
+        position: relative;
+        top: -100px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .sleep-video2 {
+        position: relative;
+        top: -100px; 
     }
 }
