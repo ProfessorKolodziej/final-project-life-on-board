@@ -1,72 +1,105 @@
 body {
     background-color: black;
-    margin: 7%
 }
 
 .lob-intro {
-    margin-top: 30%;
-    margin-left: 40%;
+    margin-top: 0%;
+    margin-left: 0%;
     text-align: right;
     
+    .opening-video { 
+        position: relative; 
+        right: 500px;
+        top: -70px;
+    }
+
+    .lob-intro-header {
+        position: relative;
+        top: -400px;
+        font-size: 78px;
+    }
+
     .lob-intro-subhead {
-        margin-bottom: 5%;
+        position: relative;
+        top: -450px;
+        right: 125px;
+        font-size: 30px;
+    }
+
+    .lob-intro-quote {
+        position: relative;
+        top: -300px;
+        right: 20px;
     }
 
     .lob-intro-quote-attibute {
-        margin-bottom: 5%;
+        position: relative;
+        top: -280px;
+        right: 30px;
+    }
+
+    .lob-intro-sitecred {
+        position: relative;
+        top: -200px;
+        right: 30px;
+    }
+
+    .lob-intro-contentcred {
+        position: relative;
+        top: -200px;
+        right: 30px;
+    }
+
+    .lob-intro-link {
+        position: relative;
+        top: -200px;
+        right: 30px;
     }
 }
 
 .lob-about {
-    margin-right: 15%;
-    margin-left: 15%;
-
+    
     .lob-about-header {
-        margin-bottom: 5%;
+        position: relative;
+        top: -125px;
+        margin-left: 40px; 
+        margin-right: 40px;
+        font-size: 78px;
+        text-align: center;
+    }
+
+    .lob-about-text1 {
+        position: relative;
+        top: -150px;
+        margin-left: 40px; 
+        margin-right: 40px;
+    }
+
+    .about-video {
+        position: relative;
+        top: -175px;
+    }
+
+    .lob-about-text2,
+    .lob-about-text3 {
+        position: relative;
+        top: -200px;
+        margin-left: 40px; 
+        margin-right: 40px;
     }
 }
 
 .lob-deck {
 
     .lob-deck-header {
-        margin-top: 5%;
-        margin-bottom: 5%;
+        position: relative;
+        top: -175px;
+        left: 18px;
+        font-size: 78px;
     }
 
-    .lob-deck-header-para1,
-    .lob-deck-header-para2 {
-        margin-left: 15%;
-        margin-right: 15%;
+    .deck-header-video {
+        position: relative; 
+        top: -200px;
     }
-
-    .lob-deck-bow {
-        margin-left: 15%;
-        margin-right: 15%;
-        margin-top: 5%;
-    }
-
-    .lob-deck-bow-text1,
-    .lob-deck-bow-text2 {
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-
-    .lob-deck-cockpit {
-        margin-left: 15%;
-        margin-right: 15%;
-        margin-top: 5%;
-    }
-
-    .lob-deck-cockpit-text1,
-    .lob-deck-cockpit-text2 {
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-
-    .lob-off {
-        margin-top: 5%;
-        margin-right: 15%;
-        margin-left: 15%;
-    }
-
 }
