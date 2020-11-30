@@ -1,6 +1,9 @@
 body {
     background-color: black;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: justify;
 }
 
 .lob-intro {
@@ -14,47 +17,59 @@ body {
         top: -70px;
     }
 
+    .whale-video {
+        position: relative;
+        top: -1200px;
+    }
+
     .lob-intro-header {
         position: relative;
         top: -400px;
+        font-family: 'Roboto', sans-serif;
         font-size: 78px;
+        text-align: center;
     }
 
     .lob-intro-subhead {
         position: relative;
         top: -450px;
-        right: 125px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
         font-size: 30px;
+        text-align: center;
     }
 
     .lob-intro-quote {
         position: relative;
         top: -300px;
         right: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 20px;
     }
 
     .lob-intro-quote-attibute {
         position: relative;
         top: -280px;
-        right: 30px;
+        right: 60px;
     }
 
     .lob-intro-sitecred {
         position: relative;
         top: -200px;
-        right: 30px;
+        right: 60px;
     }
 
     .lob-intro-contentcred {
         position: relative;
         top: -200px;
-        right: 30px;
+        right: 60px;
     }
 
     .lob-intro-link {
         position: relative;
         top: -200px;
-        right: 30px;
+        right: 60px;
     }
 }
 
@@ -95,8 +110,8 @@ body {
     .lob-deck-header {
         position: relative;
         top: -175px;
-        left: 18px;
         font-size: 78px;
+        text-align: center;
     }
 
     .deck-header-video {
