@@ -1,47 +1,37 @@
 body {
     background-color: black;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    line-height: 1.5;
-    text-align: justify;
 }
 
-.lob-intro {
-    margin-top: 0%;
-    margin-left: 0%;
-    text-align: right;
+.opening-video { 
+    position: relative; 
+    right: 500px;
+    top: -70px;
+}
+
+.whale-video {
+    position: relative;
+    top: -200px;
+}
+
+.lob-opening {  
+    width: 100vw;
+    height: 200px;
+    padding: 50px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    position: relative;
+    top: -1200px;
     
-    .opening-video { 
-        position: relative; 
-        right: 500px;
-        top: -70px;
-    }
+} 
 
-    .whale-video {
-        position: relative;
-        top: -200px;
-    }
-
-    .lob-intro-header {
-        position: relative;
-        top: -1175px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 78px;
-        text-align: center;
-    }
-
-    .lob-intro-subhead {
-        position: relative;
-        top: -1250px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 100;
-        font-size: 30px;
-        text-align: center;
-    }
+.lob-intro {
+        margin-top: 0%;
+        margin-left: 0%;
+        text-align: right;
 
     .lob-intro-quote {
         position: relative;
-        top: -1100px;
+        top: -1000px;
         right: 20px;
         margin-left: 40px;
         margin-right: 40px;
@@ -51,7 +41,7 @@ body {
 
     .lob-intro-quote-attibute {
         position: relative;
-        top: -1080px;
+        top: -980px;
         right: 60px;
     }
 
@@ -244,7 +234,7 @@ body {
     }
 }
 
-@media screen and (min-width: 575px) {
+@media screen and (min-width: 600px) {
     body {
         background-color: pink;
         font-family: 'Roboto', sans-serif;

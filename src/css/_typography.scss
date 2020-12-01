@@ -1,11 +1,21 @@
 
 body {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: justify;
 }
 
-.lob-intro-header {
-    color: white;
-    font-family:'Mukta', sans-serif;
-    font-style: bold;
+.lob-opening-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 8vw;
+    margin-top: vw;
+    margin-bottom: vw;
+    text-align: center;
+}
+
+.lob-opening-subhead {
+    font-size: 8vw;
+    text-align: center;
 }
