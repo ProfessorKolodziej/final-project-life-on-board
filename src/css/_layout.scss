@@ -5,7 +5,7 @@ body {
     background-color: black;
     z-index:2;
     position: relative;
-    top: 2000px; 
+    top: 3000px; 
 }
 .opening-video { 
     position: fixed;
@@ -99,9 +99,9 @@ body {
 
     .about-video {
         position: relative;
+        top: -50px;
         min-width: 100vmax;
         min-height: 100vmax;
-        top: 0px;
     }
 
     .lob-about-text2,
@@ -123,60 +123,64 @@ body {
     }
 
     .deck-header-video {
-        position: sticky;
+        position: relative;
+        top: -350px;
         min-width: 100vmax;
         min-height: 100vmax;
-        top: -200px;
     }
 
     .lob-deck-header-text1 {
         position: relative;
-        top: 0px;
+        top: -550px;
         margin-left: 15%; 
         margin-right: 15%;
     }
 
     .lob-deck-header-text2 {
         position: relative;
-        top: 0px;
+        top: -550px;
         margin-left: 15%; 
         margin-right: 15%;
     }
 
     .lob-deck-bow {
         position: relative;
-        top: 0px; 
+        top: -500px; 
         font-size: 48px; 
         text-align: center;
     }
 
     .bow-video {
         position: relative;
-        top: 0px; 
+        top: -750px; 
+        min-width: 100vmax;
+        min-height: 100vmax;
     }
 
     .lob-deck-bow-text1  {
         position: relative;
-        top: -650px; 
+        top: -1000px; 
         margin-left: 15%; 
         margin-right: 15%;
     }
 
     .lob-deck-bow-text2 {
         position: relative;
-        top: -650px; 
+        top: -1000px; 
         margin-left: 15%; 
         margin-right: 15%;
     }
 
     .bow-video-2 {
         position: relative;
-        top: -650px;
+        top: -1200px;
+        min-width: 100vmax;
+        min-height: 100vmax;
     }
 
     .lob-deck-cockpit {
         position: relative;
-        top: -675px; 
+        top: -1475px; 
         font-size: 48px;
         text-align: center;
     }
@@ -184,6 +188,8 @@ body {
     .pit-video {
         position: relative;
         top: -700px;
+        min-width: 100vmax;
+        min-height: 100vmax;
     }
 
     .lob-deck-cockpit-text1 {
@@ -203,6 +209,8 @@ body {
     .pit-video2 {
         position: relative;
         top: -700px;
+        min-width: 100vmax;
+        min-height: 100vmax;
     }
 
 }
@@ -219,6 +227,8 @@ body {
     .below-video {
         position: relative;
         top: -700px;
+        min-width: 100vmax;
+        min-height: 100vmax;
     }
 
     .lob-off-text1 {
@@ -231,6 +241,8 @@ body {
     .sleep-video {
         position: relative;
         top: -700px; 
+        min-width: 100vmax;
+        min-height: 100vmax;
     }
 
     .lob-off-text2 {
@@ -250,7 +262,12 @@ body {
     .sleep-video2 {
         position: relative;
         top: -700px; 
+        min-width: 100vmax;
+        min-height: 100vmax;
     }
+}
+
+@media screen and (max-width: 600px){
 }
 
 @media screen and (min-width: 600px) {
