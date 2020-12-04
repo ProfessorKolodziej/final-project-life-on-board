@@ -1,66 +1,81 @@
 body {
     background-color: black;
 }
-
+.lob {
+    background-color: black;
+    z-index:2;
+    position: relative;
+    top: 2000px; 
+}
 .opening-video { 
-    position: relative; 
-    right: 500px;
-    top: -70px;
+    position: fixed;
+    min-width: 100vmax; 
+    min-height: 100%;
+    top: 0px;
 }
 
 .whale-video {
     position: relative;
+    top: -1000px;
+    min-width: 100%;
+    min-height: 100%;
     top: -200px;
 }
 
 .lob-opening {  
     width: 100vw;
-    height: 200px;
-    padding: 50px;
-    border: 1px solid red;
+    padding: 5px;
+    padding-bottom: 30px;
     box-sizing: border-box;
-    position: relative;
-    top: -1200px;
-    
+    position: absolute;
+    top: 300px;
 } 
+
+.lob-opening-subhead {
+    position: relative;
+    top: -50px;
+}
 
 .lob-intro {
         margin-top: 0%;
         margin-left: 0%;
-        text-align: right;
+
+    .lob-intro-section {
+        box-sizing: border-box;
+        position: absolute;
+        top: 1200px;
+    }
 
     .lob-intro-quote {
-        position: relative;
-        top: -1000px;
-        right: 20px;
-        margin-left: 40px;
-        margin-right: 40px;
-        font-size: 20px;
-        font-weight: 300;
+        padding-right: 10%;
+        padding-left: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .lob-intro-quote-attibute {
-        position: relative;
-        top: -980px;
-        right: 60px;
+        padding-right: 10%;
+        padding-left: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
-
     .lob-intro-sitecred {
         position: relative;
-        top: -900px;
+        top: 1800px;
         right: 60px;
     }
 
     .lob-intro-contentcred {
         position: relative;
-        top: -900px;
+        top: 1800px;
         right: 60px;
     }
 
     .lob-intro-link {
         position: relative;
-        top: -900px;
+        top: 1800px;
         right: 60px;
+        text-align: right;
     }
 }
 
@@ -68,7 +83,7 @@ body {
     
     .lob-about-header {
         position: relative;
-        top: -825px;
+        top: 100px;
         margin-left: 40px; 
         margin-right: 40px;
         font-size: 78px;
@@ -77,22 +92,24 @@ body {
 
     .lob-about-text1 {
         position: relative;
-        top: -850px;
-        margin-left: 40px; 
-        margin-right: 40px;
+        top: 150px;
+        margin-left: 15%; 
+        margin-right: 15%;
     }
 
     .about-video {
         position: relative;
-        top: -875px;
+        min-width: 100vmax;
+        min-height: 100vmax;
+        top: 0px;
     }
 
     .lob-about-text2,
     .lob-about-text3 {
         position: relative;
-        top: -900px;
-        margin-left: 40px; 
-        margin-right: 40px;
+        top: -150px;
+        margin-left: 15%; 
+        margin-right: 15%;
     }
 }
 
@@ -100,90 +117,92 @@ body {
 
     .lob-deck-header {
         position: relative;
-        top: -900px;
+        top: -100px;
         font-size: 78px;
         text-align: center;
     }
 
     .deck-header-video {
-        position: relative; 
-        top: -950px;
+        position: sticky;
+        min-width: 100vmax;
+        min-height: 100vmax;
+        top: -200px;
     }
 
     .lob-deck-header-text1 {
         position: relative;
-        top: -950px;
-        margin-left: 40px;
-        margin-right: 40px;
+        top: 0px;
+        margin-left: 15%; 
+        margin-right: 15%;
     }
 
     .lob-deck-header-text2 {
         position: relative;
-        top: -950px;
-        margin-left: 40px;
-        margin-right: 40px;
+        top: 0px;
+        margin-left: 15%; 
+        margin-right: 15%;
     }
 
     .lob-deck-bow {
         position: relative;
-        top: -925px; 
+        top: 0px; 
         font-size: 48px; 
         text-align: center;
     }
 
     .bow-video {
         position: relative;
-        top: -975px; 
+        top: 0px; 
     }
 
     .lob-deck-bow-text1  {
         position: relative;
-        top: -1000px; 
-        margin-left: 40px;
-        margin-right: 40px;
+        top: -650px; 
+        margin-left: 15%; 
+        margin-right: 15%;
     }
 
     .lob-deck-bow-text2 {
         position: relative;
-        top: -1000px; 
-        margin-left: 40px;
-        margin-right: 40px;
+        top: -650px; 
+        margin-left: 15%; 
+        margin-right: 15%;
     }
 
     .bow-video-2 {
         position: relative;
-        top: -1000px;
+        top: -650px;
     }
 
     .lob-deck-cockpit {
         position: relative;
-        top: -1000px; 
+        top: -675px; 
         font-size: 48px;
         text-align: center;
     }
 
     .pit-video {
         position: relative;
-        top: -1050px;
+        top: -700px;
     }
 
     .lob-deck-cockpit-text1 {
         position: relative;
-        top: -1075px; 
-        margin-left: 40px;
-        margin-right: 40px;
+        top: -700px; 
+        margin-left: 15%; 
+        margin-right: 15%;
     }
 
     .lob-deck-cockpit-text2 {
         position: relative;
-        top: -1075px; 
-        margin-left: 40px;
-        margin-right: 40px;
+        top: -700px; 
+        margin-left: 15%; 
+        margin-right: 15%;
     }
 
     .pit-video2 {
         position: relative;
-        top: -1075px;
+        top: -700px;
     }
 
 }
@@ -192,82 +211,80 @@ body {
 
     .lob-off-header {
         position: relative;
-        top: -1100px; 
+        top: -700px; 
         font-size: 65px;
         text-align: center;
     }
 
     .below-video {
         position: relative;
-        top: -1150px;
+        top: -700px;
     }
 
     .lob-off-text1 {
         position: relative;
-        top: -1150px;
-        margin-left: 40px;
-        margin-right: 40px;
+        top: -700px;
+        margin-left: 15%; 
+        margin-right: 15%;
     }
 
     .sleep-video {
         position: relative;
-        top: -1150px; 
+        top: -700px; 
     }
 
     .lob-off-text2 {
         position: relative;
-        top: -1150px;
-        margin-left: 40px;
-        margin-right: 40px;
+        top: -700px;
+        margin-left: 15%; 
+        margin-right: 15%;
     }
 
     .lob-off-text3 {
         position: relative;
-        top: -1150px;
-        margin-left: 40px;
-        margin-right: 40px;
+        top: -700px;
+        margin-left: 15%; 
+        margin-right: 15%;
     }
 
     .sleep-video2 {
         position: relative;
-        top: -1150px; 
+        top: -700px; 
     }
 }
 
 @media screen and (min-width: 600px) {
     body {
-        background-color: pink;
+        background-color: black;
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
         line-height: 1.5;
         text-align: justify;
     }
 
-    .opening-video { 
-        position: relative; 
-        left: 0px;
-        top: -70px;
-    }
-
     .lob-intro-header {
         position: relative;
-        color: green;
+        color: black;
     }
 
     .lob-intro-subhead {
         position: relative;
         top: -50px;
     }
+
+    .lob-intro-quote {
+        padding-left: 300px;
+    }
 }
 
 @media screen and (min-width: 1000px) {
     .lob-intro-header {
-        color: yellow;
+        color: black;
     }
 }
 @media screen and (min-width: 1000px) {
     body {
-        background-color: red;
+        background-color: black;
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
         line-height: 1.5;
