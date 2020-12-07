@@ -2,24 +2,15 @@ body {
     background-color: black;
 }
 .lob {
-    background-color: black;
-    z-index:2;
+    background-color: pink;
     position: relative;
-    top: 3000px; 
+    top: 2000px; 
 }
 .opening-video { 
     position: fixed;
-    min-width: 100vmax; 
-    min-height: 100%;
+    min-width: 100vmax;
+    min-height: 100vmax;
     top: 0px;
-}
-
-.whale-video {
-    position: relative;
-    top: -1000px;
-    min-width: 100%;
-    min-height: 100%;
-    top: -200px;
 }
 
 .lob-opening {  
@@ -61,19 +52,19 @@ body {
     }
     .lob-intro-sitecred {
         position: relative;
-        top: 1800px;
+        top: 2000px;
         right: 60px;
     }
 
     .lob-intro-contentcred {
         position: relative;
-        top: 1800px;
+        top: 2000px;
         right: 60px;
     }
 
     .lob-intro-link {
         position: relative;
-        top: 1800px;
+        top: 2000px;
         right: 60px;
         text-align: right;
     }
@@ -98,7 +89,7 @@ body {
     }
 
     .about-video {
-        position: relative;
+        position: sticky;
         top: -50px;
         min-width: 100vmax;
         min-height: 100vmax;
