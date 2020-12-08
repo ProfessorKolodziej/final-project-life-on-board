@@ -7,52 +7,51 @@ body {
     text-align: justify;
 }
 
-.lob-opening-header {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16vw;
-    margin-top: vw;
-    margin-bottom: vw;
-    text-align: center;
-    text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
-}
+.opening {
+    .opening-title-header {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16vw;
+        margin-top: vw;
+        margin-bottom: vw;
+        text-align: center;
+        text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
+    }
+    
+    .opening-title-subhead {
+        font-size: 8vw;
+        text-align: center;
+        text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
+    }
 
-.lob-opening-subhead {
-    font-size: 8vw;
-    text-align: center;
-    text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
-}
+    .opening-intro {
+        .opening-intro-quote {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 4vw;
+            text-align: center;
+            text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
+        }
 
-.lob-intro-quote {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 4vw;
-    text-align: center;
-    text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
-}
+        .opening-intro-quote-attibute {
+            font-family: 'Roboto', sans-serif;
+            font-size: 3vw; 
+            font-weight: 300;
+            text-align: center;
+            text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
+        }
+    }
 
-.lob-intro-quote-attibute {
-    font-family: 'Roboto', sans-serif;
-    font-size: 3vw; 
-    font-weight: 300;
-    text-align: center;
-    text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
-}
+    .opening-cred {
+        .opening-cred-site {
+            font-weight: 300;
+            font-size: 18px;
+            text-align: right;
+        }
 
-.lob-intro-sitecred {
-    font-weight: 300;
-    font-size: 18px;
-    text-align: right;
+        .opening-cred-content {
+            font-weight: 300;
+            font-size: 18px;
+            text-align: right;
+        }
+    }
 }
-
-.lob-intro-contentcred {
-    font-weight: 300;
-    font-size: 18px;
-    text-align: right;
-}
-
-.lob-intro-link {
-    font-weight: 300;
-    font-size: 18px;
-    text-align: right;
-}
-

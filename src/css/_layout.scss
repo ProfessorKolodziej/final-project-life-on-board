@@ -1,301 +1,282 @@
 body {
     background-color: black;
 }
+.opening {
+    position: relative;
+    height: 1000px;
+    top:0;
+
+    .opening-video { 
+        position: fixed;
+        top: 0px;
+        height: auto;
+        width: 100vmax;
+    }
+
+    .opening-title {  
+        width: 100vw;
+        padding: 5px;
+        padding-bottom: 30px;
+        box-sizing: border-box;
+        position: absolute;
+        top: 300px;
+
+        .opening-title-subheader {
+            position: relative;
+            top: -50px;
+        }
+    } 
+
+    .opening-intro {
+        box-sizing: border-box;
+        position: absolute;
+        top: 1200px;
+
+        .opening-intro-quote {
+            padding-right: 10%;
+            padding-left: 10%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .opening-intro-quote-attibute {
+            padding-right: 10%;
+            padding-left: 10%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    }
+
+    .opening-cred {
+        .opening-cred-site {
+            position: relative;
+            top: 2000px;
+            right: 60px;
+        }
+
+        .opening-cred-content {
+            position: relative;
+            top: 2000px;
+            right: 60px;
+        }
+    }
+}
+
 .lob {
     background-color: black;
     position: relative;
     top: 1200px; 
-}
-.opening {
-    position: relative;
-    height: 1000px;
-}
-.opening-video { 
-    position: fixed;
-    top: 0px;
-    height: fit-content;
-    width: fit-content;
-}
 
-.lob-opening {  
-    width: 100vw;
-    padding: 5px;
-    padding-bottom: 30px;
-    box-sizing: border-box;
-    position: absolute;
-    top: 300px;
-} 
+    .lob-about {
 
-.lob-opening-subhead {
-    position: relative;
-    top: -50px;
-}
+        .lob-about-header {
+            position: relative;
+            top: 100px;
+            margin-left: 40px; 
+            margin-right: 40px;
+            font-size: 78px;
+            text-align: center;
+        }
 
-.lob-intro {
-        margin-top: 0%;
-        margin-left: 0%;
+        .lob-about-video {
+            position: relative;
+            top: -350px;
+            min-width: 100vmax;
+            min-height: 100vmax;
+        }
 
-    .lob-intro-section {
-        box-sizing: border-box;
-        position: absolute;
-        top: 1200px;
+        .lob-about-text {
+            .lob-about-text-1 {
+                position: relative;
+                top: 150px;
+                margin-left: 15%; 
+                margin-right: 15%;
+            }
+
+            .lob-about-text-2 {
+                position: relative;
+                top: -150px;
+                margin-left: 15%; 
+                margin-right: 15%;
+            }
+
+            .lob-about-text-3 {
+                position: relative;
+                top: -150px;
+                margin-left: 15%; 
+                margin-right: 15%;
+            }
+        }
     }
 
-    .lob-intro-quote {
-        padding-right: 10%;
-        padding-left: 10%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    .lob-intro-quote-attibute {
-        padding-right: 10%;
-        padding-left: 10%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    .lob-intro-sitecred {
-        position: relative;
-        top: 2000px;
-        right: 60px;
-    }
-
-    .lob-intro-contentcred {
-        position: relative;
-        top: 2000px;
-        right: 60px;
-    }
-
-    .lob-intro-link {
-        position: relative;
-        top: 2000px;
-        right: 60px;
-        text-align: right;
-    }
 }
 
-.about-video {
-    position: relative;
-    top: -350px;
-    min-width: 100vmax;
-    min-height: 100vmax;
-}
-
-.lob-about {
-    
-    .lob-about-header {
-        position: relative;
-        top: 100px;
-        margin-left: 40px; 
-        margin-right: 40px;
-        font-size: 78px;
-        text-align: center;
-    }
-
-    .lob-about-text1 {
-        position: relative;
-        top: 150px;
-        margin-left: 15%; 
-        margin-right: 15%;
-    }
-
-    .about-video {
-        position: relative;
-        top: -350px;
-        min-width: 100vmax;
-        min-height: 100vmax;
-    }
-
-    .lob-about-text2,
-    .lob-about-text3 {
-        position: relative;
-        top: -150px;
-        margin-left: 15%; 
-        margin-right: 15%;
-    }
-}
-
-.lob-deck {
-
-    .lob-deck-header {
+.lob-deck-opening {
+    .lob-deck-opening-header {
         position: relative;
         top: -100px;
         font-size: 78px;
         text-align: center;
     }
 
-    .deck-header-video {
+    .lob-deck-opening-video {
         position: relative;
         top: -350px;
         min-width: 100vmax;
         min-height: 100vmax;
     }
+            
+    .lob-deck-opening-text {
+        .lob-deck-opening-text-1 {
+            position: relative;
+            top: -550px;
+            margin-left: 15%; 
+            margin-right: 15%;
+        }
 
-    .lob-deck-header-text1 {
+        .lob-deck-opening-text-2 {
+            position: relative;
+            top: -550px;
+            margin-left: 15%; 
+            margin-right: 15%;
+        }
+    }
+    
+}
+
+
+.lob-deck-bow {
+    position: relative;
+    top: -500px; 
+    font-size: 48px; 
+    text-align: center;
+
+    .lob-deck-bow-header{
         position: relative;
-        top: -550px;
-        margin-left: 15%; 
-        margin-right: 15%;
     }
 
-    .lob-deck-header-text2 {
-        position: relative;
-        top: -550px;
-        margin-left: 15%; 
-        margin-right: 15%;
-    }
-
-    .lob-deck-bow {
-        position: relative;
-        top: -500px; 
-        font-size: 48px; 
-        text-align: center;
-    }
-
-    .bow-video {
+    .lob-deck-bow-video {
         position: relative;
         top: -750px; 
         min-width: 100vmax;
         min-height: 100vmax;
     }
 
-    .lob-deck-bow-text1  {
-        position: relative;
-        top: -1000px; 
-        margin-left: 15%; 
-        margin-right: 15%;
-    }
+    .lob-deck-bow-text {
+        .lob-deck-bow-text-1 {
+            position: relative;
+            top: -1000px; 
+            margin-left: 15%; 
+            margin-right: 15%;
+        }
 
-    .lob-deck-bow-text2 {
-        position: relative;
-        top: -1000px; 
-        margin-left: 15%; 
-        margin-right: 15%;
+        .lob-deck-bow-text-2 {
+            position: relative;
+            top: -1000px; 
+            margin-left: 15%; 
+            margin-right: 15%;
+        }
+        
+        .lob-deck-bow-video-2 {
+            position: relative;
+            top: -1200px;
+            min-width: 100vmax;
+            min-height: 100vmax;
+        }
     }
+}
 
-    .bow-video-2 {
-        position: relative;
-        top: -1200px;
-        min-width: 100vmax;
-        min-height: 100vmax;
-    }
-
-    .lob-deck-cockpit {
+.lob-deck-cockpit {
+    .lob-deck-cockpit-header {
         position: relative;
         top: -1475px; 
         font-size: 48px;
         text-align: center;
     }
 
-    .pit-video {
+    .lob-deck-cockpit-video {
         position: relative;
         top: -700px;
         min-width: 100vmax;
         min-height: 100vmax;
     }
 
-    .lob-deck-cockpit-text1 {
-        position: relative;
-        top: -700px; 
-        margin-left: 15%; 
-        margin-right: 15%;
-    }
+    .lob-deck-cockpit-text {
+        .lob-deck-cockpit-text-1 {
+            position: relative;
+            top: -700px; 
+            margin-left: 15%; 
+            margin-right: 15%;
+        }
 
-    .lob-deck-cockpit-text2 {
-        position: relative;
-        top: -700px; 
-        margin-left: 15%; 
-        margin-right: 15%;
-    }
+        .lob-deck-cockpit-text-2 {
+            position: relative;
+            top: -700px; 
+            margin-left: 15%; 
+            margin-right: 15%;
+        }
 
-    .pit-video2 {
-        position: relative;
-        top: -700px;
-        min-width: 100vmax;
-        min-height: 100vmax;
-    }
+        .lob-deck-cockpit-video-2 {
+            position: relative;
+            top: -700px;
+            min-width: 100vmax;
+            min-height: 100vmax;
+        }
 
+    }
 }
 
 .lob-off {
+    .lob-off-opening {
+        .lob-off-opening-header {
+            position: relative;
+            top: -700px; 
+            font-size: 65px;
+            text-align: center;
+        }
 
-    .lob-off-header {
-        position: relative;
-        top: -700px; 
-        font-size: 65px;
-        text-align: center;
+        .lob-off-opening-video {
+            position: relative;
+            top: -700px;
+            min-width: 100vmax;
+            min-height: 100vmax;
+        }
+
+        .lob-off-opening-text {
+            position: relative;
+            top: -700px;
+            margin-left: 15%; 
+            margin-right: 15%;
+        }
     }
-
-    .below-video {
-        position: relative;
-        top: -700px;
-        min-width: 100vmax;
-        min-height: 100vmax;
-    }
-
-    .lob-off-text1 {
-        position: relative;
-        top: -700px;
-        margin-left: 15%; 
-        margin-right: 15%;
-    }
-
-    .sleep-video {
-        position: relative;
-        top: -700px; 
-        min-width: 100vmax;
-        min-height: 100vmax;
-    }
-
-    .lob-off-text2 {
-        position: relative;
-        top: -700px;
-        margin-left: 15%; 
-        margin-right: 15%;
-    }
-
-    .lob-off-text3 {
-        position: relative;
-        top: -700px;
-        margin-left: 15%; 
-        margin-right: 15%;
-    }
-
-    .sleep-video2 {
-        position: relative;
-        top: -700px; 
-        min-width: 100vmax;
-        min-height: 100vmax;
-    }
-}
-
-@media screen and (max-width: 600px){
-}
-
-@media screen and (min-width: 600px) {
-    body {
-        background-color: black;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        line-height: 1.5;
-        text-align: justify;
-    }
-
-    .lob-intro-header {
-        position: relative;
-        color: black;
-    }
-
-    .lob-intro-subhead {
-        position: relative;
-        top: -50px;
-    }
-
-    .lob-intro-quote {
-        padding-left: 300px;
-    }
-}
-
-@media screen and (max-width: 375px) {
     
+    .lob-off-body {
+        .lob-off-body-video {
+            position: relative;
+            top: -700px; 
+            min-width: 100vmax;
+            min-height: 100vmax;
+        }
+
+        .lob-off-body-text-1 {
+            position: relative;
+            top: -700px;
+            margin-left: 15%; 
+            margin-right: 15%;
+        }
+
+        .lob-off-body-text-2 {
+            position: relative;
+            top: -700px;
+            margin-left: 15%; 
+            margin-right: 15%;
+        }
+
+        .lob-off-body-video-2 {
+            position: relative;
+            top: -700px; 
+            min-width: 100vmax;
+            min-height: 100vmax;
+        }
+    }
 }
