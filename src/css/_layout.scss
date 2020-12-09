@@ -89,7 +89,7 @@ body {
         .lob-about-text {
             .lob-about-text-header {
                 position: relative;
-                top: -600;
+                top: -600px;
                 margin-left: 15%; 
                 margin-right: 15%;
             }
@@ -139,9 +139,15 @@ body {
     }
             
     .lob-deck-opening-text {
+        .lob-deck-opening-text-header {
+            position: relative;
+            top: -1000px; 
+            margin-left: 15%; 
+            margin-right: 15%;
+        }
         .lob-deck-opening-text-1 {
             position: relative;
-            top: -1000px;
+            top: -800px;
             margin-left: 15%; 
             margin-right: 15%;
         }
@@ -156,135 +162,164 @@ body {
 }
 
 .lob-deck-bow {
-    position: relative;
-    top: 1000px; 
-    font-size: 48px; 
-    text-align: center;
-
-    .lob-deck-bow-header{
-        position: relative;
-    }
+    position: relative; 
+    top: -1000px;
 
     .lob-deck-bow-video {
         position: relative;
-        top: 1000px; 
+        top: -100px; 
         min-width: 100vmax;
         min-height: 100vmax;
     }
 
+    .lob-deck-bow-header{
+        position: relative;
+        top: -800px;
+        font-size: 48px; 
+        text-align: right;
+        padding-right: 40px;
+        margin-left: 60%;
+    }
+
     .lob-deck-bow-text {
+        .lob-deck-bow-text-header {
+            position: relative;
+            top: -500px; 
+            margin-left: 15%; 
+            margin-right: 15%;
+        }
+
         .lob-deck-bow-text-1 {
             position: relative;
-            top: 1000px; 
+            top: -500px; 
             margin-left: 15%; 
             margin-right: 15%;
         }
 
         .lob-deck-bow-text-2 {
             position: relative;
-            top: 1000px; 
+            top: -500px; 
             margin-left: 15%; 
             margin-right: 15%;
         }
-        
-        .lob-deck-bow-video-2 {
-            position: relative;
-            top: 1000px;
-            min-width: 100vmax;
-            min-height: 100vmax;
-        }
+    }
+
+    .lob-deck-bow-video-2 {
+        position: relative;
+        top: -600px;
+        min-width: 100vmax;
+        min-height: 100vmax;
     }
 }
 
 .lob-deck-cockpit {
-    .lob-deck-cockpit-header {
-        position: relative;
-        top: -1475px; 
-        font-size: 48px;
-        text-align: center;
-    }
+    position: relative; 
+    top: -1000px;
+    box-sizing: border-box;
 
     .lob-deck-cockpit-video {
         position: relative;
-        top: -700px;
+        top: -900px;
         min-width: 100vmax;
         min-height: 100vmax;
     }
 
+    .lob-deck-cockpit-header {
+        position: relative;
+        top: -1475px; 
+        font-size: 48px;
+        text-align: right;
+        padding-right: 40px;
+        margin-left: 30%;
+    }
+
     .lob-deck-cockpit-text {
-        .lob-deck-cockpit-text-1 {
+        position: relative;
+        top: -1200px;
+        .lob-deck-cockpit-text-header {
             position: relative;
-            top: -700px; 
+            margin-left: 15%; 
+            margin-right: 15%;
+        }
+
+        .lob-deck-cockpit-text-1 {
+            position: relative; 
             margin-left: 15%; 
             margin-right: 15%;
         }
 
         .lob-deck-cockpit-text-2 {
             position: relative;
-            top: -700px; 
             margin-left: 15%; 
             margin-right: 15%;
         }
+    }
 
-        .lob-deck-cockpit-video-2 {
-            position: relative;
-            top: -700px;
-            min-width: 100vmax;
-            min-height: 100vmax;
-        }
-
+    .lob-deck-cockpit-video-2 {
+        position: relative;
+        top: -1300px;
+        min-width: 100vmax;
+        min-height: 100vmax;
     }
 }
 
 .lob-off {
-    .lob-off-opening {
-        .lob-off-opening-header {
-            position: relative;
-            top: -700px; 
-            font-size: 65px;
-            text-align: center;
-        }
+    position: relative;
+    top: -2000px;
 
-        .lob-off-opening-video {
-            position: relative;
-            top: -700px;
-            min-width: 100vmax;
-            min-height: 100vmax;
-        }
+    .lob-off-opening-video {
+        position: relative;
+        top: -600px;
+        min-width: 100vmax;
+        min-height: 100vmax;
+    }
 
-        .lob-off-opening-text {
-            position: relative;
-            top: -700px;
-            margin-left: 15%; 
-            margin-right: 15%;
-        }
+    .lob-off-opening-header {
+        position: relative;
+        top: -1200px; 
+        font-size: 65px;
+        text-align: center;
+    }
+
+    .lob-off-opening-text-header {
+        position: relative;
+        top: -1000px;
+        margin-left: 15%; 
+        margin-right: 15%;
+    }
+
+    .lob-off-opening-text-1 {
+        position: relative;
+        top: -1000px;
+        margin-left: 15%; 
+        margin-right: 15%;
+    }
+
+    .lob-off-opening-text-2 {
+        position: relative;
+        top: -1000px;
+        margin-left: 15%;
+        margin-right: 15%;
     }
     
+    .lob-off-body-text {
+        position: relative;
+        top: -1400px;
+        margin-left: 15%; 
+        margin-right: 15%;
+    }
+
     .lob-off-body {
         .lob-off-body-video {
             position: relative;
-            top: -700px; 
+            top: -1200px; 
             min-width: 100vmax;
             min-height: 100vmax;
-        }
-
-        .lob-off-body-text-1 {
-            position: relative;
-            top: -700px;
-            margin-left: 15%; 
-            margin-right: 15%;
-        }
-
-        .lob-off-body-text-2 {
-            position: relative;
-            top: -700px;
-            margin-left: 15%; 
-            margin-right: 15%;
         }
 
         .lob-off-body-video-2 {
             position: relative;
-            top: -700px; 
+            top: -1500px; 
             min-width: 100vmax;
             min-height: 100vmax;
         }
