@@ -1,102 +1,95 @@
 
 body {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    line-height: 1.5;
-    text-align: justify;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+	text-align: justify;
 }
 
 .opening {
-    .opening-title-header {
-        font-family: 'Roboto', sans-serif;
-        font-size: 16vw;
-        margin-top: vw;
-        margin-bottom: vw;
-        text-align: center;
-        text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
-    }
-    
-    .opening-title-subheader {
-        font-size: 8vw;
-        font-weight: 700;
-        text-align: center;
-        text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
-    }
+	.opening-title-header {
+		font-family: 'Roboto', sans-serif;
+		font-size: 16vw;
+		margin-top: vw;
+		margin-bottom: vw;
+		text-align: center;
+		text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
+	}
 
-    .opening-intro {
-        .opening-intro-quote {
-            font-family: 'Roboto', sans-serif;
-            font-weight: 700;
-            font-size: 4vw;
-            text-align: center;
-            text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
-        }
+	.opening-title-subheader {
+		font-size: 8vw;
+		font-weight: 700;
+		text-align: center;
+		text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
+	}
 
-        .opening-intro-quote-attibute {
-            font-family: 'Roboto', sans-serif;
-            font-size: 3vw; 
-            font-weight: 300;
-            text-align: center;
-            text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
-        }
-    }
+	.opening-intro {
+		.opening-intro-quote {
+			font-family: 'Roboto', sans-serif;
+			font-weight: 700;
+			font-size: 4vw;
+			text-align: center;
+			text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
+		}
 
-    .opening-cred {
-        .opening-cred-site {
-            font-weight: 300;
-            font-size: 18px;
-            text-align: right;
-        }
+		.opening-intro-quote-attibute {
+			font-family: 'Roboto', sans-serif;
+			font-size: 3vw;
+			font-weight: 300;
+			text-align: center;
+			text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
+		}
+	}
 
-        .opening-cred-content {
-            font-weight: 300;
-            font-size: 18px;
-            text-align: right;
-        }
+	.opening-cred {
+		.opening-cred-site {
+			font-weight: 300;
+			font-size: 18px;
+			text-align: right;
+		}
 
-        .link {
-            color: white;
-        }
-    }
+		.opening-cred-content {
+			font-weight: 300;
+			font-size: 18px;
+			text-align: right;
+		}
+
+		.link {
+			color: white;
+		}
+	}
 }
 
 .lob-deck-opening-header {
-    text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
+	text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
 }
 
 .lob-deck-bow-header {
-    color: white;
+	color: white;
 }
 
 .lob-deck-cockpit-header {
-    color: white;
+	color: white;
 }
 
 .lob-off-opening-header {
-    color: white; 
-    text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
-
+	color: white;
+	text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
 }
 
-
 @media screen and (max-width: 375px) {
-    .lob-deck-bow-header {
-        color: white;
-        text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
-        font-size: 40px;
-    }
+	.lob-deck-bow-header {
+		color: white;
+		text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
+		font-size: 40px;
+	}
 }
 
 @media screen and (min-width: 768px) {
-    .lob-deck-bow-header {
-        color: white;
-        text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
-        font-size: 50px;
-    }
-}
-
-
-.lob-deck-bow-header {
-    color: white;
+	.lob-deck-bow-header {
+		color: white;
+		text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
+		font-size: 50px;
+	}
 }

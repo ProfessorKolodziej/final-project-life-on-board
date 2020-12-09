@@ -1,325 +1,328 @@
 body {
-    background-color: black;
+	background-color: black;
 }
+
 .opening {
-    position: relative;
-    height: 1000px;
-    top:0;
+	position: relative;
+	height: 1000px;
+	top: 0;
 
-    .opening-video { 
-        position: fixed;
-        top: 0px;
-        height: auto;
-        width: 100vmax;
-    }
+	.opening-video {
+		position: fixed;
+		top: 0;
+		height: auto;
+		width: 100vmax;
+	}
 
-    .opening-title {  
-        width: 100vw;
-        box-sizing: border-box;
-        position: absolute;
-        top: 300px;
+	.opening-title {
+		width: 100vw;
+		box-sizing: border-box;
+		position: absolute;
+		top: 300px;
 
-        .opening-title-subheader {
-            position: relative;
-            top: -50px;
-        }
-    } 
+		.opening-title-subheader {
+			position: relative;
+			top: -50px;
+		}
+	}
 
-    .opening-intro {
-        box-sizing: border-box;
-        position: relative;
-        top: 1200px;
+	.opening-intro {
+		box-sizing: border-box;
+		position: relative;
+		top: 1200px;
 
-        .opening-intro-quote {
-            padding-right: 10%;
-            padding-left: 10%;
-            margin-left: 10%;
-            margin-right: 10%;
-        }
+		.opening-intro-quote {
+			padding-right: 10%;
+			padding-left: 10%;
+			margin-left: 10%;
+			margin-right: 10%;
+		}
 
-        .opening-intro-quote-attibute {
-            padding-right: 10%;
-            padding-left: 10%;
-            margin-left: 10%;
-            margin-right: 10%;
-        }
-    }
+		.opening-intro-quote-attibute {
+			padding-right: 10%;
+			padding-left: 10%;
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+	}
 
-    .opening-cred {
-        .opening-cred-site {
-            position: relative;
-            top: 1500px;
-            right: 60px;
-        }
+	.opening-cred {
+		.opening-cred-site {
+			position: relative;
+			top: 1500px;
+			right: 60px;
+		}
 
-        .opening-cred-content {
-            position: relative;
-            top: 1450px;
-            right: 60px;
-        }
-    }
+		.opening-cred-content {
+			position: relative;
+			top: 1450px;
+			right: 60px;
+		}
+	}
 }
 
 .lob {
-    background-color: black;
-    position: relative;
-    top: 1200px; 
+	background-color: black;
+	position: relative;
+	top: 1200px;
 
-    .lob-about {
-        box-sizing: border-box; 
-        position: relative; 
-        top: 0px; 
+	.lob-about {
+		box-sizing: border-box;
+		position: relative;
+		top: 0;
 
-        .lob-about-video {
-            position: relative;
-            top: -250px;
-            min-width: 100vmax;
-            min-height: 100vmax;
-        }
+		.lob-about-video {
+			position: relative;
+			top: -250px;
+			min-width: 100vmax;
+			min-height: 100vmax;
+		}
 
-        .lob-about-header {
-            position: relative;
-            top: -900px;
-            margin-left: 50%;
-            padding-right: 40px;
-            font-size: 78px;
-            text-align: right;
-        }
+		.lob-about-header {
+			position: relative;
+			top: -900px;
+			margin-left: 50%;
+			padding-right: 40px;
+			font-size: 78px;
+			text-align: right;
+		}
 
-        .lob-about-text {
-            .lob-about-text-header {
-                position: relative;
-                top: -600px;
-                margin-left: 15%; 
-                margin-right: 15%;
-            }
-            .lob-about-text-1 {
-                position: relative;
-                top: -600px;
-                margin-left: 15%; 
-                margin-right: 15%;
-            }
+		.lob-about-text {
+			.lob-about-text-header {
+				position: relative;
+				top: -600px;
+				margin-left: 15%;
+				margin-right: 15%;
+			}
 
-            .lob-about-text-2 {
-                position: relative;
-                top: -600px;
-                margin-left: 15%; 
-                margin-right: 15%;
-            }
+			.lob-about-text-1 {
+				position: relative;
+				top: -600px;
+				margin-left: 15%;
+				margin-right: 15%;
+			}
 
-            .lob-about-text-3 {
-                position: relative;
-                top: -600px;
-                margin-left: 15%; 
-                margin-right: 15%;
-            }
-        }
-    }
+			.lob-about-text-2 {
+				position: relative;
+				top: -600px;
+				margin-left: 15%;
+				margin-right: 15%;
+			}
 
+			.lob-about-text-3 {
+				position: relative;
+				top: -600px;
+				margin-left: 15%;
+				margin-right: 15%;
+			}
+		}
+	}
 }
 
 .lob-deck-opening {
-    box-sizing: border-box; 
-    position: relative; 
-    top: 0px; 
+	box-sizing: border-box;
+	position: relative;
+	top: 0;
 
-    .lob-deck-opening-video {
-        position: relative;
-        top: -700px;
-        min-width: 100vmax;
-        min-height: 100vmax;
-    }
+	.lob-deck-opening-video {
+		position: relative;
+		top: -700px;
+		min-width: 100vmax;
+		min-height: 100vmax;
+	}
 
-    .lob-deck-opening-header {
-        position: relative;
-        top: -1300px;
-        font-size: 78px;
-        text-align: right;
-        padding-right: 40px;
-    }
-            
-    .lob-deck-opening-text {
-        .lob-deck-opening-text-header {
-            position: relative;
-            top: -1000px; 
-            margin-left: 15%; 
-            margin-right: 15%;
-        }
-        .lob-deck-opening-text-1 {
-            position: relative;
-            top: -1000px;
-            margin-left: 15%; 
-            margin-right: 15%;
-        }
+	.lob-deck-opening-header {
+		position: relative;
+		top: -1300px;
+		font-size: 78px;
+		text-align: right;
+		padding-right: 40px;
+	}
 
-        .lob-deck-opening-text-2 {
-            position: relative;
-            top: -1000px;
-            margin-left: 15%; 
-            margin-right: 15%;
-        }
-    }
+	.lob-deck-opening-text {
+		.lob-deck-opening-text-header {
+			position: relative;
+			top: -1000px;
+			margin-left: 15%;
+			margin-right: 15%;
+		}
+
+		.lob-deck-opening-text-1 {
+			position: relative;
+			top: -1000px;
+			margin-left: 15%;
+			margin-right: 15%;
+		}
+
+		.lob-deck-opening-text-2 {
+			position: relative;
+			top: -1000px;
+			margin-left: 15%;
+			margin-right: 15%;
+		}
+	}
 }
 
 .lob-deck-bow {
-    position: relative; 
-    top: -1000px;
+	position: relative;
+	top: -1000px;
 
-    .lob-deck-bow-video {
-        position: relative;
-        top: -100px; 
-        min-width: 100vmax;
-        min-height: 100vmax;
-    }
+	.lob-deck-bow-video {
+		position: relative;
+		top: -100px;
+		min-width: 100vmax;
+		min-height: 100vmax;
+	}
 
-    .lob-deck-bow-header{
-        position: relative;
-        top: -700px;
-        font-size: 48px; 
-        text-align: right;
-        padding-right: 40px;
-        margin-left: 40%;
-    }
+	.lob-deck-bow-header {
+		position: relative;
+		top: -700px;
+		font-size: 48px;
+		text-align: right;
+		padding-right: 40px;
+		margin-left: 40%;
+	}
 
-    .lob-deck-bow-text {
-        .lob-deck-bow-text-header {
-            position: relative;
-            top: -500px; 
-            margin-left: 15%; 
-            margin-right: 15%;
-        }
+	.lob-deck-bow-text {
+		.lob-deck-bow-text-header {
+			position: relative;
+			top: -500px;
+			margin-left: 15%;
+			margin-right: 15%;
+		}
 
-        .lob-deck-bow-text-1 {
-            position: relative;
-            top: -500px; 
-            margin-left: 15%; 
-            margin-right: 15%;
-        }
+		.lob-deck-bow-text-1 {
+			position: relative;
+			top: -500px;
+			margin-left: 15%;
+			margin-right: 15%;
+		}
 
-        .lob-deck-bow-text-2 {
-            position: relative;
-            top: -500px; 
-            margin-left: 15%; 
-            margin-right: 15%;
-        }
-    }
+		.lob-deck-bow-text-2 {
+			position: relative;
+			top: -500px;
+			margin-left: 15%;
+			margin-right: 15%;
+		}
+	}
 
-    .lob-deck-bow-video-2 {
-        position: relative;
-        top: -600px;
-        min-width: 100vmax;
-        min-height: 100vmax;
-    }
+	.lob-deck-bow-video-2 {
+		position: relative;
+		top: -600px;
+		min-width: 100vmax;
+		min-height: 100vmax;
+	}
 }
 
 .lob-deck-cockpit {
-    position: relative; 
-    top: -1000px;
-    box-sizing: border-box;
+	position: relative;
+	top: -1000px;
+	box-sizing: border-box;
 
-    .lob-deck-cockpit-video {
-        position: relative;
-        top: -900px;
-        min-width: 100vmax;
-        min-height: 100vmax;
-    }
+	.lob-deck-cockpit-video {
+		position: relative;
+		top: -900px;
+		min-width: 100vmax;
+		min-height: 100vmax;
+	}
 
-    .lob-deck-cockpit-header {
-        position: relative;
-        top: -1475px; 
-        font-size: 48px;
-        text-align: right;
-        padding-right: 40px;
-        margin-left: 30%;
-    }
+	.lob-deck-cockpit-header {
+		position: relative;
+		top: -1475px;
+		font-size: 48px;
+		text-align: right;
+		padding-right: 40px;
+		margin-left: 30%;
+	}
 
-    .lob-deck-cockpit-text {
-        position: relative;
-        top: -1200px;
-        .lob-deck-cockpit-text-header {
-            position: relative;
-            margin-left: 15%; 
-            margin-right: 15%;
-        }
+	.lob-deck-cockpit-text {
+		position: relative;
+		top: -1200px;
 
-        .lob-deck-cockpit-text-1 {
-            position: relative; 
-            margin-left: 15%; 
-            margin-right: 15%;
-        }
+		.lob-deck-cockpit-text-header {
+			position: relative;
+			margin-left: 15%;
+			margin-right: 15%;
+		}
 
-        .lob-deck-cockpit-text-2 {
-            position: relative;
-            margin-left: 15%; 
-            margin-right: 15%;
-        }
-    }
+		.lob-deck-cockpit-text-1 {
+			position: relative;
+			margin-left: 15%;
+			margin-right: 15%;
+		}
 
-    .lob-deck-cockpit-video-2 {
-        position: relative;
-        top: -1300px;
-        min-width: 100vmax;
-        min-height: 100vmax;
-    }
+		.lob-deck-cockpit-text-2 {
+			position: relative;
+			margin-left: 15%;
+			margin-right: 15%;
+		}
+	}
+
+	.lob-deck-cockpit-video-2 {
+		position: relative;
+		top: -1300px;
+		min-width: 100vmax;
+		min-height: 100vmax;
+	}
 }
 
 .lob-off {
-    position: relative;
-    top: -2000px;
+	position: relative;
+	top: -2000px;
 
-    .lob-off-opening-video {
-        position: relative;
-        top: -600px;
-        min-width: 100vmax;
-        min-height: 100vmax;
-    }
+	.lob-off-opening-video {
+		position: relative;
+		top: -600px;
+		min-width: 100vmax;
+		min-height: 100vmax;
+	}
 
-    .lob-off-opening-header {
-        position: relative;
-        top: -1200px; 
-        font-size: 65px;
-        text-align: center;
-    }
+	.lob-off-opening-header {
+		position: relative;
+		top: -1200px;
+		font-size: 65px;
+		text-align: center;
+	}
 
-    .lob-off-opening-text-header {
-        position: relative;
-        top: -800px;
-        margin-left: 15%; 
-        margin-right: 15%;
-    }
+	.lob-off-opening-text-header {
+		position: relative;
+		top: -800px;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
 
-    .lob-off-opening-text-1 {
-        position: relative;
-        top: -800px;
-        margin-left: 15%; 
-        margin-right: 15%;
-    }
+	.lob-off-opening-text-1 {
+		position: relative;
+		top: -800px;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
 
-    .lob-off-opening-text-2 {
-        position: relative;
-        top: -800px;
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-    
-    .lob-off-body-text {
-        position: relative;
-        top: -1000px;
-        margin-left: 15%; 
-        margin-right: 15%;
-    }
+	.lob-off-opening-text-2 {
+		position: relative;
+		top: -800px;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
 
-    .lob-off-body-video {
-        position: relative;
-        top: -900px; 
-        min-width: 100vmax;
-        min-height: 100vmax;
-    }
+	.lob-off-body-text {
+		position: relative;
+		top: -1000px;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
 
-    .lob-off-body-video-2 {
-        position: relative;
-        top: -1000px; 
-        min-width: 100vmax;
-        min-height: 100vmax;
-    }
+	.lob-off-body-video {
+		position: relative;
+		top: -900px;
+		min-width: 100vmax;
+		min-height: 100vmax;
+	}
+
+	.lob-off-body-video-2 {
+		position: relative;
+		top: -1000px;
+		min-width: 100vmax;
+		min-height: 100vmax;
+	}
 }
