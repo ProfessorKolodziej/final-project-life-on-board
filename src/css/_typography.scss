@@ -54,9 +54,49 @@ body {
             font-size: 18px;
             text-align: right;
         }
+
+        .link {
+            color: white;
+        }
     }
 }
 
-.lob-deck-bow-text {
+.lob-deck-opening-header {
+    text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
+}
 
+.lob-deck-bow-header {
+    color: white;
+}
+
+.lob-deck-cockpit-header {
+    color: white;
+}
+
+.lob-off-opening-header {
+    color: white; 
+    text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
+
+}
+
+
+@media screen and (max-width: 375px) {
+    .lob-deck-bow-header {
+        color: white;
+        text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .lob-deck-bow-header {
+        color: white;
+        text-shadow: -1px 0 #070825, 0 1px #070825, 1px 0 #070825, 0 -1px #070825;
+        font-size: 50px;
+    }
+}
+
+
+.lob-deck-bow-header {
+    color: white;
 }

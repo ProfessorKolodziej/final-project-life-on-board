@@ -57,10 +57,6 @@ body {
             top: 1450px;
             right: 60px;
         }
-
-        .link {
-            color: white;
-        }
     }
 }
 
@@ -178,11 +174,11 @@ body {
 
     .lob-deck-bow-header{
         position: relative;
-        top: -800px;
+        top: -700px;
         font-size: 48px; 
         text-align: right;
         padding-right: 40px;
-        margin-left: 60%;
+        margin-left: 40%;
     }
 
     .lob-deck-bow-text {
@@ -287,45 +283,43 @@ body {
 
     .lob-off-opening-text-header {
         position: relative;
-        top: -1000px;
+        top: -800px;
         margin-left: 15%; 
         margin-right: 15%;
     }
 
     .lob-off-opening-text-1 {
         position: relative;
-        top: -1000px;
+        top: -800px;
         margin-left: 15%; 
         margin-right: 15%;
     }
 
     .lob-off-opening-text-2 {
         position: relative;
-        top: -1000px;
+        top: -800px;
         margin-left: 15%;
         margin-right: 15%;
     }
     
     .lob-off-body-text {
         position: relative;
-        top: -1400px;
+        top: -1000px;
         margin-left: 15%; 
         margin-right: 15%;
     }
 
-    .lob-off-body {
-        .lob-off-body-video {
-            position: relative;
-            top: -1200px; 
-            min-width: 100vmax;
-            min-height: 100vmax;
-        }
+    .lob-off-body-video {
+        position: relative;
+        top: -900px; 
+        min-width: 100vmax;
+        min-height: 100vmax;
+    }
 
-        .lob-off-body-video-2 {
-            position: relative;
-            top: -1500px; 
-            min-width: 100vmax;
-            min-height: 100vmax;
-        }
+    .lob-off-body-video-2 {
+        position: relative;
+        top: -1000px; 
+        min-width: 100vmax;
+        min-height: 100vmax;
     }
 }
